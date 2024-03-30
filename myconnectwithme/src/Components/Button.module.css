@@ -1,0 +1,31 @@
+.buttonbg {
+    width: 435px;
+    height: 76px;
+    opacity: 0.83;
+    border-radius: 12px;
+    background: #191D30;
+    cursor: pointer;
+    display: flex;
+    transition: transform 0.3s; 
+    box-shadow: #ffffff9b 0px 0px 15px
+}
+.buttonbg:hover {
+    transform: scale(1.05); 
+}
+.btntxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btncol{
+    color: #FFFFFF;
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.btnlogo{
+    padding: 15px 0px 14px 14px;
+}
+.textpad{
+    padding: 23px 166px 23px 109px;
+}
