@@ -23,19 +23,19 @@ function App() {
 
           <div>
             <div className='subcontainer01'>
-              <Button btnlogo={Linkedin} btntext='Linked In'/>
-              <Button btnlogo={GitHub} btntext='GitHub'/>
+              <Button href='https://www.linkedin.com/in/kabileshgs/' btnlogo={Linkedin} btntext='Linked In'/>
+              <Button href='https://github.com/Kabilesh-GS' btnlogo={GitHub} btntext='GitHub'/>
             </div>
             <div className='subcontainer01'>
-              <Button btnlogo={Medium} btntext='Medium'/>
-              <Button btnlogo={Dribbble} btntext='Dribbble'/>
+              <Button href='https://medium.com/@kabileshgs' btnlogo={Medium} btntext='Medium'/>
+              <Button href='https://dribbble.com/kabi07' btnlogo={Dribbble} btntext='Dribbble'/>
             </div>
           </div>
 
           <div className='subcontain02'>
-            <img className='hover' src={Instagram} />
-            <img className='hover' src={Twitter}/>
-            <img className='hover' src={Mail} />
+            <a href='https://www.instagram.com/kabil.1507/' target='_blank'><img className='hover' src={Instagram} /></a>
+            <a href='https://twitter.com/Kabi0704' target='_blank'><img className='hover' src={Twitter}/></a>
+            <a href='mailto:kabileshgs@gmail.com' target='_blank'><img className='hover' src={Mail} /></a>
           </div>
         </div>
 
