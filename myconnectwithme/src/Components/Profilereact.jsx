@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../assets/meee12.jpg'
+import Profile from '../assets/profile.png'
 import Profilestyle from './Profilereact.module.css'
 
 function Profilereact() {
