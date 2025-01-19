@@ -19,7 +19,7 @@ function App() {
           <Profilereact /> 
 
           <p className='font color1'>@KabileshGS</p>
-          <p className='font color2 size'>Frontend Developer  |  Intern @ Spotknack  |  Active Learner </p>
+          <p className='font color2 size'>Frontend Developer  |  Active Learner </p>
 
           <div>
             <div className='subcontainer01'>

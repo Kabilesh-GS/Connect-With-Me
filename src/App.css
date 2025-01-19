@@ -35,6 +35,10 @@
 }
 .hover{
     cursor: pointer;
+    transition: transform 0.3s;
+}
+.hover:hover {
+    transform: scale(1.3); 
 }
 .bgimage{
     position: fixed;
